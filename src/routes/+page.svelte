@@ -1,6 +1,6 @@
 <script>
 	// Creamos varias flores que caerán
-	let flores = Array.from({ length: 50 }, (_, i) => ({
+	let flores = Array.from({ length: 150 }, (_, i) => ({
 		id: i,
 		left: Math.random() * 100, // posición horizontal
 		delay: Math.random() * 5, // inicio aleatorio
